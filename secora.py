@@ -24,7 +24,7 @@ print(Fore.YELLOW+"[SECORA]: A Bug Bounty Hunter's Terminal ------> [CREATOR]: @
 print(Fore.BLUE+"[+] Help: "+Fore.WHITE)
 print(Fore.BLUE+"Command: list sessions -------> List All Sessions"+Fore.WHITE)
 print(Fore.BLUE+"Command: interact <session_id> -------> Interact With The Session"+Fore.WHITE)
-print(Fore.BLUE+"Command: Exit -------> Exit Secura\n"+Fore.WHITE)
+print(Fore.BLUE+"Command: Exit -------> Exit Secora\n"+Fore.WHITE)
 
 # Dictionary to store background processes and their details
 background_tasks: Dict[int, Tuple[subprocess.Popen, str, queue.Queue]] = {}
